@@ -54,3 +54,18 @@ ul {
     align-items: center;
     margin-top: auto;
 }
+
+.section-one {
+    background-color: white;
+    height: 200px;
+}
+
+.section-two {
+    background-color: #e5e7eb;
+    height: 200px;
+}
+
+.section-three {
+    background-color: white;
+    height: 200px;
+}
