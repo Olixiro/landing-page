@@ -1,11 +1,12 @@
 
-body {
-    height: 100vh;
+html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
 }
 
 .full {
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -24,20 +25,25 @@ ul {
     display: flex;
     background-color: #1F2937;
     color: #F9FAF8;
-    justify-content: space-between;
+    height: 300px;
+    padding: 10px 100px 10px 100px;
 }
 
 .menu {
     display: flex;
+    flex: 1;
+    align-items: center;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .logo {
     display: flex;
 }
 
-.links {
+.links ul {
     display: flex;
+    gap: 16px;
 }
 
 .footer {
@@ -45,5 +51,6 @@ ul {
     background-color:#1F2937;
     color: #F9FAF8;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
+    margin-top: auto;
 }
